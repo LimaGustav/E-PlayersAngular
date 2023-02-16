@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+/* FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Titillium Web', sans-serif;
+
+    font-size: 62.5%;
+
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.grid {
+  width: 90%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
